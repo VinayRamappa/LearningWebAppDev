@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic</title>
+      <style type="text/css">
+        .FAQ { cursor:hand; cursor:pointer;}
+        .FAA { display:none; }
+      </style>
+    <!-- Javascript to hide FAQ Answers-->
+    <script type="text/javascript">
+        function toggle(Info) {
+        var CState = document.getElementById(Info);
+        CState.style.display = (CState.style.display != 'block')
+                       ? 'block' : 'none';
+                                          }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Amazeriffic</h1>
+      <nav>
+        <a href="file:///home/vinay/webapp/LearningWebAppDev/Chapter2/Amazeriffic/index.html">Home</a> |
+        <a href="file:///home/vinay/webapp/LearningWebAppDev/Chapter2/Amazeriffic/Sign%20Up.html">Sign Up!</a> |
+        <a href="#">FAQ</a> |
+        <a href="#">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- FAQ Page -->
+      <h2>Frequently Asked Questions:</h2>
+
+      <DIV class="FAQ" onclick="toggle('faq1')"> 
+        <ul><li>What is Web Application Development?</li></ul>
+      <div id="faq1" class="FAA">
+      A web application is a software that runs off the internet. The softwares that uses internet medium   to reach it's audience is a web application. The most common forms of web applications are dynamic websites, e commerce systems, custom systems programmed for a business need and utilities for work or fun. web applications are often powered by databases that hold the data repository in the backend, web applications can either reside on individual servers or on the cloud.
+      </div>
+      </DIV>
+
+      <DIV class="FAQ" onclick="toggle('faq2')">
+       <ul><li>what is SQL Injection?</li></ul>
+      <div id="faq2" class="FAA">
+       SQL injection is one of the most common web attack mechanisms utilized by attackers to steal sensitive data from organizations. While SQL Injection can affect any data driven application that uses a SQL database, it is most often used to attack web sites.
+
+      </div>
+      </DIV>
+
+      <DIV class="FAQ" onclick="toggle('faq3')">
+        <ul><li>Does MongoDB support transactions?</li></ul>
+      <div id="faq3" class="FAA">
+      MongoDB does not support multi-document transactions. However, MongoDB does provide atomic operations on a single document.
+      </div>
+      </DIV>
+   
+    </main>
+    
+    <footer>
+      <div class="contact">
+        <h5>Contact Us</h5>
+        <p>Amazeriffic!</p>
+        <p>555 Fiftieth Street</p>
+        <p>Asheville, NC 28801</p>
+      </div>
+
+      <div class="sitemap">
+        <h5>Sitemap</h5>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
