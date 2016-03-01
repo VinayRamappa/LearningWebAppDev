@@ -72,10 +72,6 @@ main ul {
    list-style-type: "*";
 }
 
-main .FAQ li {
-padding:10px 25px;
-}
-
 
 
 main .left ul, main .left li{

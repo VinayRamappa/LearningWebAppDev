@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic</title>
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+     <div class="container">
+      <h1>Amazeriffic</h1>
+      <nav>
+        <a href="file:///home/vinay/vinay/LearningWebAppDev/Chapter3/Amazeriffic/index.html">Home</a> |
+        <a href="#">Sign Up!</a> |
+        <a href="file:///home/vinay/vinay/LearningWebAppDev/Chapter3/Amazeriffic/faq.html">FAQ</a> |
+        <a href="#">Support</a>
+      </nav>
+     </div>
+    </header>
+    
+    <main>
+       <!-- Amazeriffic SignUp Page -->
+      <div class="container">
+       <form>         
+        <label for="name">Username:</label> <input type="text" name="name" id="name" value="" /><br><br>
+        <label for="email">Email:</label> <input type="text" name="email" id="email" value="" /><br><br>
+        <label for="pwd">Password:</label> <input type="password" name="pwd" id="pwd" value="" /><br><br><br>
+        <input type="submit" value="Submit">
+       </form> 
+      </div>
+     </main>
+     
+     <footer>
+      <div class="container">
+        
+          <div class="contact">
+            <h5>Contact Us</h5>
+            <p>Amazeriffic!</p>
+            <p>555 Fiftieth Street</p>
+            <p>Asheville, NC 28801</p>
+          </div>
+        
+        <div class="sitemap">
+          <h5>Sitemap</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </footer>
+  </body>
+</html>
+    
+     
